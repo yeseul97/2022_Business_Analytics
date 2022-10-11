@@ -1,7 +1,9 @@
 # 2022_Business_Analytics
 
-Ch1. 차원 축소 
-![image.png](attachment:image.png)
+# Ch1. 차원 축소 
+![image](https://user-images.githubusercontent.com/67623921/195076164-43e63c12-59bb-4deb-b3da-ac13c9be69ed.png)
+
+
 
 ### 1. 특성 선택 (feature selection)
 **: 원본 특성에서 일부 선택**
