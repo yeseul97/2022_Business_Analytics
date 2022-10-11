@@ -1,8 +1,7 @@
-# 2022_Business_Analytics
+2022_Business_Analytics
 
 # Ch1. 차원 축소 
-![image](https://user-images.githubusercontent.com/67623921/195076164-43e63c12-59bb-4deb-b3da-ac13c9be69ed.png)
-
+![image](https://user-images.githubusercontent.com/67623921/195076458-b650b386-e4d5-4da8-98fe-46119ec53ba0.png)
 
 
 ### 1. 특성 선택 (feature selection)
