@@ -8,13 +8,13 @@
 **: 원본 특성에서 일부 선택**
 
 
-- <u>순차 특성 선택</u> (sequential feature selection) 또는 <u>탐욕적 탐색 알고리즘</u> (greedy search algorithm)
+- 전진 선택법 (sequential feature selection) 또는 <u>탐욕적 탐색 알고리즘</u> (greedy search algorithm)
 
     : 초기 d차원의 특성 공간을 k<d인 k차원의 특성 부분 공간으로 축소
     
     
     
-- [순차 후진 선택](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/1.%20%ED%9B%84%EC%A7%84%20%EC%A0%9C%EA%B1%B0%EB%B2%95.ipynb) (Sequential Backward Selection, SBS)
+- [후진 제거법](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/1.%20%ED%9B%84%EC%A7%84%20%EC%A0%9C%EA%B1%B0%EB%B2%95.ipynb) (Sequential Backward Selection, SBS)
 
     : 모델 성능을 최대한 희생하면서 초기 특성의 부분 공간으로 차원 축소 
     
