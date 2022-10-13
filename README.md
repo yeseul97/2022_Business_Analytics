@@ -13,7 +13,7 @@
     : 초기 d차원의 특성 공간을 k<d인 k차원의 특성 부분 공간으로 축소
     
     
-- <u>[순차 후진 선택](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/1.%20%ED%9B%84%EC%A7%84%20%EC%A0%9C%EA%B1%B0%EB%B2%95.ipynb).</u> (Sequential Backward Selection, SBS)
+- [순차 후진 선택](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/1.%20%ED%9B%84%EC%A7%84%20%EC%A0%9C%EA%B1%B0%EB%B2%95.ipynb) (Sequential Backward Selection, SBS)
 
     : 모델 성능을 최대한 희생하면서 초기 특성의 부분 공간으로 차원 축소 
     
