@@ -5,8 +5,7 @@
 ### [ 분산 vs 유사도 ] 
 
 #### 1. PCA vs MDS (with swiss roll)
-![image](https://user-images.githubusercontent.com/67623921/195513578-95835b27-2a3a-4cf5-a985-17524017bf2c.png)
-
+![image](https://user-images.githubusercontent.com/67623921/195513697-96969fd2-fb3b-4a8c-adaa-294af12b208f.png)
 
 
 ### [ 비선형 ]
