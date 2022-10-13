@@ -28,4 +28,4 @@
 
 
 #### 5. UMAP (with MNIST data)
-![image](https://user-images.githubusercontent.com/67623921/195513385-5e69a640-43c6-49a5-af4e-e24ea4a06aae.png)
+![image](https://user-images.githubusercontent.com/67623921/195513856-4ec0c662-8390-4589-b957-ad068590a76d.png)
