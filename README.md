@@ -23,19 +23,19 @@
 ### 2. 특성 추출 (feature extraction)
 **: 일련의 특성에서 얻은 정보로 새로운 특성 만듦**
 
-- <u>PCA</u> (Principle Component Analysis)
+- [PCA](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/2.%20PCA.ipynb) (Principle Component Analysis)
 
 
-- <u>LDA</u> (Linear Discriminant Analysis)
+- [LDA](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/3.%20LDA.ipynb) (Linear Discriminant Analysis)
 
 
-- <u>ISOMAP</u> 
+- [ISOMAP](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/2.%20ISOMAP%20-%20MNIST%20data.ipynb) 
 
 
-- <u>LLE</u> (Locally Linear Embedding)
+- [LLE](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/3.%20LLE%20-%20swiss%20roll.ipynb) (Locally Linear Embedding)
 
 
-- <u>t-SNE</u> (t-distributed stochastic neighbor embedding)
+- [t-SNE](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/4.%20t-SNE%20-%20MNIST%20dataset.ipynb) (t-distributed stochastic neighbor embedding)
 
 
-- <u>UMAP</u> (Unifom Manifold Approximation and Projection)
+- [UMAP](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/5.%20UMAP%20-%20MNIST%20dataset.ipynb) (Unifom Manifold Approximation and Projection)
