@@ -5,8 +5,7 @@
 ### [ 분산 vs 유사도 ] 
 
 #### 1. PCA vs MDS (with swiss roll)
-![image](https://user-images.githubusercontent.com/67623921/195513220-35223ef5-2cbc-4002-b44b-5be376bc809d.png)
-
+![image](https://user-images.githubusercontent.com/67623921/195513578-95835b27-2a3a-4cf5-a985-17524017bf2c.png)
 
 
 
@@ -18,7 +17,7 @@
 
 
 #### 3. LLE (with swiss roll)
-![image](https://user-images.githubusercontent.com/67623921/195513353-4b281033-2fd7-4530-a30d-939641b626ef.png)
+![image](https://user-images.githubusercontent.com/67623921/195513526-d1008bdd-404c-4a64-a7d1-04fdc0111330.png)
 
 
 
