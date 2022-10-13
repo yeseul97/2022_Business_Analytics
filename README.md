@@ -25,17 +25,30 @@
 
 - [PCA](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/2.%20PCA.ipynb) (Principle Component Analysis)
 
+    : 가장 분산이 큰 방향으로 새롭게 축을 정의하여 차원 축소하는 방법
+
 
 - [LDA](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Code/3.%20LDA.ipynb) (Linear Discriminant Analysis)
+
+    : 규제가 없는 모델에서 차원의 저주로 인한 과대 적합 정도를 줄이고 계산 효율성을 높이기 위한 특성 추출의 기법
 
 
 - [ISOMAP](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/2.%20ISOMAP%20-%20MNIST%20data.ipynb) 
 
+    : local structure를 보존하면서 비선형 방식으로 차원 축소하는 방법
 
 - [LLE](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/3.%20LLE%20-%20swiss%20roll.ipynb) (Locally Linear Embedding)
 
+    : 서로 인접한 데이터들을 보존하면서 고차원인 데이터셋을 저차원으로 축소하는 방법
 
 - [t-SNE](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/4.%20t-SNE%20-%20MNIST%20dataset.ipynb) (t-distributed stochastic neighbor embedding)
 
+    : 분포를 사용하여 높은 차원의 복잡한 데이터를 낮은 차원으로 차원 축소하여 시각화 하는 방법
+
 
 - [UMAP](https://github.com/yeseul97/2022_Business_Analytics/blob/main/Visualization/5.%20UMAP%20-%20MNIST%20dataset.ipynb) (Unifom Manifold Approximation and Projection)
+
+    : 연결관계를 사용하여 높은 차원의 복잡한 데이터를 낮은 차원으로 차원 축소하여 시각화 하는 방법
+    
+    
+    
