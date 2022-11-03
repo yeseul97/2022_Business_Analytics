@@ -1,7 +1,7 @@
 ## 2️⃣ Support Vector Machine (SVM)
 
 
-[<실험 1>](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
+[**실험 1**](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
  
       - 사용한 데이터셋
         ➡ Cancer Data
@@ -9,7 +9,7 @@
         ➡ Shape: (569,30), Target: 양성/음성 ( binary class)
 
 
-[<실험 2>](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%202)%20fetch_lfw_people%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
+[**실험 2**](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%202)%20fetch_lfw_people%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
 
       - 사용한 데이터셋
         ➡ Fetch 이미지 Data
@@ -25,7 +25,7 @@
     
  
  
- 
+ ------------------------------------------------------------------------------
   ✔ **예상**
   
     - RBF kernel이 가장 성능이 좋을 것이다. (데이터가 많고 튜닝을 했기 때문에)
