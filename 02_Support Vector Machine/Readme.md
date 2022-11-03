@@ -1,7 +1,7 @@
 # 2️⃣ Support Vector Machine (SVM)
 
 
-[**실험 1**](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
+[**실험 1**(https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
  
       - 사용한 데이터셋
         ➡ Cancer Data
@@ -30,7 +30,7 @@
  ------------------------------------------------------------------------------
   ✔ **예상**
   
-    - RBF kernel이 가장 성능이 좋을 것이다. (데이터가 많고 튜닝을 했기 때문에)
+    - RBF kernel이 가장 성능이 좋을 것이다. (하이퍼 파라미터가 많고 튜닝을 했기 때문에)
 
     - PCA를 적용하면 아무래도 정보가 손실되기 때문에, PCA를 적용하지 않은 SVM 모델이 성능면에서는 더 좋을 것이다. 
 
