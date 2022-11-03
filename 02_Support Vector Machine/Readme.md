@@ -1,14 +1,7 @@
 ## 2️⃣ Support Vector Machine (SVM)
 
 
-
-  ✅ **실험은 총 6가지 세팅으로 진행한다** ✅
-
-    ✔ 1,2,3번 실험 : 원본 데이터에 서로 다른 3가지 kernel 함수를 적용한 모델 3가지 
-
-    ✔ 4,5,6번 실험 : 원본 데이터에 PCA를 적용하여 차원을 축소한 뒤 3가지 kernel 함수를 적용한 모델 3가지
-    
- [<실험 1>](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
+[<실험 1>](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
  
       - 사용한 데이터셋
         ➡ Cancer Data
@@ -24,6 +17,11 @@
         ➡ Shape: (1348,2914), Target: 8가지 ➡ 변수도 많고 타겟도 많은 경우
 
 
+  ✅ **실험은 총 6가지 세팅으로 진행한다** ✅
+
+    ✔ 1,2,3번 실험 : 원본 데이터에 서로 다른 3가지 kernel 함수를 적용한 모델 3가지 
+
+    ✔ 4,5,6번 실험 : 원본 데이터에 PCA를 적용하여 차원을 축소한 뒤 3가지 kernel 함수를 적용한 모델 3가지
     
  
  
@@ -42,7 +40,7 @@
   
   **<실험 1>**
   
-    ![image](https://user-images.githubusercontent.com/67623921/199640720-3e938c2f-2d58-47fb-b84b-8c48e004fe72.png)  
+  ![image](https://user-images.githubusercontent.com/67623921/199640720-3e938c2f-2d58-47fb-b84b-8c48e004fe72.png)  
   
     - ACC, Precision, F1_score 측면에서는 모두 RBF가 좋은 성능을 보였다.
     
@@ -57,7 +55,7 @@
   
   **<실험 2>**
   
-    ![image](https://user-images.githubusercontent.com/67623921/199640733-177ec7e0-e122-441c-a787-832f96d15ec7.png)
+  ![image](https://user-images.githubusercontent.com/67623921/199640733-177ec7e0-e122-441c-a787-832f96d15ec7.png)
 
     - Precision, Recall, F1_score 측면에서 모두 RBF가 좋은 성능을 보였다.
     
