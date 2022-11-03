@@ -10,18 +10,18 @@
     
     
     
-    <실험 1>
-    - 사용한 데이터셋
-      ➡ Cancer Data
-    - 데이터 구조 
-      ➡ Shape: (569,30), Target: 양성/음성 ( binary class)
+    **<실험 1>**
+      - 사용한 데이터셋
+        ➡ Cancer Data
+      - 데이터 구조 
+        ➡ Shape: (569,30), Target: 양성/음성 ( binary class)
 
 
-    <실험 2> 
-    - 사용한 데이터셋
-      ➡ Fetch 이미지 Data
-    - 데이터 구조 
-      ➡ Shape: (1348,2914), Target: 8가지 ➡ 변수도 많고 타겟도 많은 경우
+    **<실험 2>**
+      - 사용한 데이터셋
+        ➡ Fetch 이미지 Data
+      - 데이터 구조 
+        ➡ Shape: (1348,2914), Target: 8가지 ➡ 변수도 많고 타겟도 많은 경우
 
 
     
