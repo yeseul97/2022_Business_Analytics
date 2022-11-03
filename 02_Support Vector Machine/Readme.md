@@ -10,14 +10,14 @@
     
     
     
-    **<실험 1>**
+    <실험 1>
       - 사용한 데이터셋
         ➡ Cancer Data
       - 데이터 구조 
         ➡ Shape: (569,30), Target: 양성/음성 ( binary class)
 
 
-    **<실험 2>**
+    <실험 2>
       - 사용한 데이터셋
         ➡ Fetch 이미지 Data
       - 데이터 구조 
@@ -40,7 +40,7 @@
   
   ✔ **결과**
   
-  <실험 1>
+  **<실험 1>**
   
     ![image](https://user-images.githubusercontent.com/67623921/199640720-3e938c2f-2d58-47fb-b84b-8c48e004fe72.png)  
   
@@ -55,7 +55,7 @@
       ![image](https://user-images.githubusercontent.com/67623921/199641216-01fb78f2-e23f-4ab0-9236-a214cd21fecf.png)
 
   
-  <실험 2>
+  **<실험 2>**
   
     ![image](https://user-images.githubusercontent.com/67623921/199640733-177ec7e0-e122-441c-a787-832f96d15ec7.png)
 
