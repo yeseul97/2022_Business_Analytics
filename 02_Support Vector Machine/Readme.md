@@ -1,10 +1,11 @@
-## 2️⃣ Support Vector Machine (SVM)
+# 2️⃣ Support Vector Machine (SVM)
 
 
 [**실험 1**](https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
  
       - 사용한 데이터셋
         ➡ Cancer Data
+        
       - 데이터 구조 
         ➡ Shape: (569,30), Target: 양성/음성 ( binary class)
 
@@ -13,6 +14,7 @@
 
       - 사용한 데이터셋
         ➡ Fetch 이미지 Data
+        
       - 데이터 구조 
         ➡ Shape: (1348,2914), Target: 8가지 ➡ 변수도 많고 타겟도 많은 경우
 
