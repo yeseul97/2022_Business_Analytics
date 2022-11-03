@@ -28,7 +28,7 @@
  
  
  
-  ✔ 예상
+  ✔ **예상**
   
     - RBF kernel이 가장 성능이 좋을 것이다. (데이터가 많고 튜닝을 했기 때문에)
 
@@ -38,17 +38,29 @@
   
   
   
-  ✔ 결과
+  ✔ **결과**
   
   <실험 1>
   
-  ![image](https://user-images.githubusercontent.com/67623921/199640397-5e76082c-d038-4840-913a-b9f1ac0d8179.png)
+    ![image](https://user-images.githubusercontent.com/67623921/199640720-3e938c2f-2d58-47fb-b84b-8c48e004fe72.png)  
   
-  
+    - ACC, Precision, F1_score 측면에서는 모두 RBF가 좋은 성능을 보였다.
+    
+    - 테이블 데이터의 경우 변수가 많지 않아 차원 축소(PCA)를 하지 않은 데이터들이 더 성능이 좋음을 입증했다.
+    
+    - 다만 Recall 측면에서 Polynomial이 가장 좋은 성능을 보였다.
+    
+    - 이를 시각화해서 보면 RBF가 학습 데이터에 너무 overfitting 되어서 그런게 아닐까 추측한다. 
+    
+      ![image](https://user-images.githubusercontent.com/67623921/199641216-01fb78f2-e23f-4ab0-9236-a214cd21fecf.png)
+
   
   <실험 2>
   
-  ![image](https://user-images.githubusercontent.com/67623921/199640432-47df5bed-2962-475a-9977-eee55c20cd77.png)
+    ![image](https://user-images.githubusercontent.com/67623921/199640733-177ec7e0-e122-441c-a787-832f96d15ec7.png)
 
-  
-  
+    - Precision, Recall, F1_score 측면에서 모두 RBF가 좋은 성능을 보였다.
+    
+    - 이미지 데이터의 경우 차원 수가 많아 PCA 한 것과 기본 SVM을 적용한 것의 성능 차이는 유사했다.
+    
+    - 그러므로 이미지 데이터처럼 차원 수가 많은 경우, PCA를 적용한 후 SVM을 적용하는 것도 유의미할 것이라 생각한다. 
