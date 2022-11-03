@@ -10,7 +10,9 @@
     
     
     
-    <실험 1>
+    [<실험 1>]
+             (https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%201)%20Cancer%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb)
+      
       - 사용한 데이터셋
         ➡ Cancer Data
       - 데이터 구조 
@@ -18,6 +20,8 @@
 
 
     <실험 2>
+    
+https://github.com/yeseul97/2022_Business_Analytics/blob/main/02_Support%20Vector%20Machine/%EC%8B%A4%ED%97%98%202)%20fetch_lfw_people%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20.ipynb
       - 사용한 데이터셋
         ➡ Fetch 이미지 Data
       - 데이터 구조 
