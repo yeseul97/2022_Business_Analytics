@@ -27,14 +27,14 @@
 
   
 ### 1. Linear Autoencoder
-  : Linear 함수로 layer를 구성한 모델
+####  : Linear 함수로 layer를 구성한 모델
   
   ![image](https://user-images.githubusercontent.com/67623921/202412248-c5a59442-b528-4ac6-9106-abf8eac5c132.png)
 
   ◾ Accuracy: 0.2692702980472765
   
 ### 2. Recurrent Autoencoder
-  : Recurrent Autoencoder는 시계열 예측에 사용되는 LSTM 모델로 layer를 구성한 모델
+####  : Recurrent Autoencoder는 시계열 예측에 사용되는 LSTM 모델로 layer를 구성한 모델
   
   ![image](https://user-images.githubusercontent.com/67623921/202412643-9119063e-d592-4e98-bb2f-685516f32ffa.png)
 
