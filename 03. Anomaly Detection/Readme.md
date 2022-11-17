@@ -22,10 +22,7 @@
 ### 2️⃣ Anomaly Detection - Autoencoder
 #### → 비지도 학습 방법이며 재구성 오차를 통해 이상을 탐지하는 Autoencoder를 사용했습니다.
 
-![image](https://user-images.githubusercontent.com/67623921/202410130-f8dcf002-b257-423f-bef5-f8ff9686b269.png)
-  
-
-  ![image](https://user-images.githubusercontent.com/67623921/202410624-a09acb1d-1596-43a1-81c1-1904202c5cd4.png)
+![image](https://user-images.githubusercontent.com/67623921/202414574-15fb7497-6d31-46cd-8df6-7f7145ffbfc3.png)
 
   
 ### 1. Linear Autoencoder
