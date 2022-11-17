@@ -1,6 +1,6 @@
 ## 3번째 튜토리얼 "Anomaly Detection"
 
-@ Anomaly Detection과 Classification 비교
+### 1️⃣ Anomaly Detection과 Classification 비교
 ![image.png](attachment:image.png)
 
 이상 탐지와 분류 방법의 차이점을 train dataset에서의 각 클래스별 비율을 다르게 하여 실험적으로 증명하였습니다. 
