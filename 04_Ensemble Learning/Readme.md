@@ -11,9 +11,22 @@
 ## 2. Bagging
 : 데이터를 가방(bag)에 쓸어 담아 복원 추출하여 여러 개의 표본을 만들어 이를 기반으로 각각의 모델을 개발한 후에 결과를 하나로 합쳐 하나의 모델을 만들어 내는 것
 
-✔ `DecisionTreeClassifier`의 hyper-parameter : min_samples_split, min_samples_leaf, max_features, max_depth
+![image](https://user-images.githubusercontent.com/67623921/204858446-dee5014d-4414-4b4c-bb78-b107db978a7f.png)
+
+
+✔ `DecisionTreeClassifier`의 hyper-parameter : min_samples_split, min_samples_leaf, max_features, max_depth ...
 
 → 최적의 hyper-parameter 조합
 
 ![image](https://user-images.githubusercontent.com/67623921/204857385-a8b1363b-62e5-4d1b-aff0-56504a6a4433.png)
 
+✔ `BaggingClassifier`의 hyper-parameter : n_estimators, max_samples, bootstrap ...
+
+→ 최적의 hyper-parameter 조합
+
+![image](https://user-images.githubusercontent.com/67623921/204858551-2aaa6437-5d69-4e60-97f1-79ffb3599db9.png)
+
+
+
+## 3. Boosting
+: 부스팅은 틀린 문제를 노트에 적고 이것들에 집중을 하는 목적의 오답노트와 비슷한 개념으로 생각하면 되는데 즉, 틀린 케이스에 가중치를 줌으로써 이를 해결하는 것에 초점을 맞추는 모델
