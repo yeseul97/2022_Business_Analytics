@@ -1,5 +1,6 @@
 ## ✍ 4번째 튜토리얼 "Ensemble Learning"
 
-### Ensemble Learning이란
-
-![image-2.png](attachment:image-2.png)
+### 목차
+1. Ensemble Learning
+2. Bagging
+3. Boosting
