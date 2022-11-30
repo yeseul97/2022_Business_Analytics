@@ -32,3 +32,23 @@
 : 부스팅은 틀린 문제를 노트에 적고 이것들에 집중을 하는 목적의 오답노트와 비슷한 개념으로 생각하면 되는데 즉, 틀린 케이스에 가중치를 줌으로써 이를 해결하는 것에 초점을 맞추는 모델
 
 ![image](https://user-images.githubusercontent.com/67623921/204859577-fa5915e3-ea56-4c49-8ad8-6ef88d8f2b21.png)
+
+
+✔ `AdaBoostClassifier`의 hyper-parameter : n_estimators, learning_rate ...
+
+→ 최적의 hyper-parameter 조합
+
+![image](https://user-images.githubusercontent.com/67623921/204859882-8ae71714-3010-4400-91cc-b42769508551.png)
+
+
+✔ `GradientBoostingClassifier`의 hyper-parameter : n_estimators, learning_rate, max_depth ...
+
+→ 최적의 hyper-parameter 조합
+
+![image](https://user-images.githubusercontent.com/67623921/204860153-32075633-6006-464d-9d4c-c7885386ee2a.png)
+
+✔ `XGBClassifier`의 hyper-parameter : max_depth, min_child_weight, gamma, subsample, colsample_bytree, reg_alpha...
+
+→ 최적의 hyper-parameter 조합 (5단계)
+
+![image](https://user-images.githubusercontent.com/67623921/204860402-8998a36c-36de-455a-beb1-b3c464e1facb.png)
