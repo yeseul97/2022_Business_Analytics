@@ -2,5 +2,8 @@
 
 ### 목차
 1. Ensemble Learning
-2. Bagging
-3. Boosting
+2. Bagging - `DecisionTreeClassifier`, BaggingClassifier
+4. Boosting - AdaBoostClassifier, GradientBoostingClassifier, XGBoost
+
+#### 1. Ensemble Learning
+
