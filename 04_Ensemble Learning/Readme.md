@@ -11,7 +11,7 @@
 ## 2. Bagging
 : 데이터를 가방(bag)에 쓸어 담아 복원 추출하여 여러 개의 표본을 만들어 이를 기반으로 각각의 모델을 개발한 후에 결과를 하나로 합쳐 하나의 모델을 만들어 내는 것
 
-`DecisionTreeClassifier`의 hyper-parameter : min_samples_split, min_samples_leaf, max_features, max_depth
+✔ `DecisionTreeClassifier`의 hyper-parameter : min_samples_split, min_samples_leaf, max_features, max_depth
 
 → 최적의 hyper-parameter 조합
 
