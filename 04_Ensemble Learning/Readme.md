@@ -51,8 +51,7 @@
 
 → 최적의 hyper-parameter 조합 (5단계)
 
-![image](https://user-images.githubusercontent.com/67623921/204860402-8998a36c-36de-455a-beb1-b3c464e1facb.png)
+![image](https://user-images.githubusercontent.com/67623921/204860782-fb4fe93a-b030-45cc-945b-2f97ece46ebe.png)
 
 
-
-+ 자세한 결과 해석은 tutorial 파일에 있습니다!
+* 자세한 결과 해석은 tutorial 파일에 있습니다!
