@@ -1,15 +1,15 @@
 ## ✍ 5번째 튜토리얼 "Semi-Supervised Learning"
 
 ### <목차>
-1. Ensemble Learning
-2. Bagging : `DecisionTreeClassifier`,  `BaggingClassifier`
-4. Boosting : `AdaBoostClassifier`,  `GradientBoostingClassifier`,  `XGBClassifier`
+1. Proxy-label method : `Pseudo Label`
+2. Consistency regularization : `PI model`, `VAT`, `Mean Teacher`, `ICT`
+3. Holistic methods : `MixMatch`
 
 
 
 
 
-### 1️⃣ Proxy-label method 
+### 1️. Proxy-label method 
 
   - Labeled set으로 학습된 모델을 이용해 unlabeled data point들에 label을 달아주는 기법
 
@@ -25,7 +25,7 @@
   출처: https://sanghyu.tistory.com/177
 
 
-### 2️⃣ Consistency regularization
+### 2️. Consistency regularization
 
   - 이 방법은 unlabeled data point에 작은 perturbation을 주어도 예측의 결과에는 일관성이 있을 거라고 가정함. 
 
@@ -64,7 +64,7 @@
   
   
   
-### 3️⃣ Holistic methods
+### 3️. Holistic methods
 
   - 여러 semi-supervised learning 기법들을 통합하고 Mixup data augmentatino을 적용하여 성능을 더 끌어 올림.
 
