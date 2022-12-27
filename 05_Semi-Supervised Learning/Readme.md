@@ -64,7 +64,7 @@
 ## 4. 실험
 
 #### `"Loss를 변경해 가며 성능 변화를 확인하자"`
-기존 Loss: `MSE` → 실험할 Loss: `L1 Loss`, `KL divergence`, `JS divergence`
+#### 기존 Loss: `MSE` → 실험할 Loss: `L1 Loss`, `KL divergence`, `JS divergence`
 
 - Semi-Supervised Learning의 목적함수는 supervised Loss $L_s$와 unsupervised Loss $L_u$의 합을 최소화하는 것으로 표현할 수 있음. 
 
@@ -74,7 +74,9 @@
 
 - 하지만, 대부분의 모델들이 MSE로 Loss를 계산함. 
 
-Kim, T., Oh, J., Kim, N., Cho, S., & Yun, S. Y. (2021). Comparing kullback-leibler divergence and mean squared error loss in knowledge distillation. arXiv preprint arXiv:2105.08919.
+- [1]을 참고하면
+
+[1] Kim, T., Oh, J., Kim, N., Cho, S., & Yun, S. Y. (2021). Comparing kullback-leibler divergence and mean squared error loss in knowledge distillation. arXiv preprint arXiv:2105.08919.
 
 - 위 논문을 보면, 
 
