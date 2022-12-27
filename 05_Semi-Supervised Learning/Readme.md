@@ -6,7 +6,8 @@
 
   ✔ 데이터 자체의 본질적인 특성이 모델링 된다면 소량의 labeled data를 통한 약간의 가이드로 일반화 성능을 끌어올릴 있음. 
 
-![image](https://user-images.githubusercontent.com/67623921/209644289-622ed290-b74a-4d6e-a6c9-e0832ca7c189.png)
+![image](https://user-images.githubusercontent.com/67623921/209647134-726f3859-cd3f-4353-886c-1f610ab90a9a.png)
+
 출처: https://blog.est.ai/2020/11/ssl/
 
 
@@ -21,7 +22,8 @@
   - 그래도 Labeled set 분포 내의 샘플들에 대해 interpolation하는 효과가 있기때문에 아직도 많이 사용되는 기법임. 
 
   #### 📌 Method 1. Pseudo Label (13')
-  ![image](https://user-images.githubusercontent.com/67623921/209645395-273502dc-389f-4c1c-a29f-5c8441e0bdf2.png)
+  ![image](https://user-images.githubusercontent.com/67623921/209647081-9874fab0-5f36-43a4-91d9-a224ca76e1ef.png)
+  
   출처: https://sanghyu.tistory.com/177
 
 
@@ -41,21 +43,25 @@
 
   #### 📌 Method 2. PI model (16')
   ![image](https://user-images.githubusercontent.com/67623921/209645936-254931a4-4b02-4496-9ef5-089c52d4cc8a.png)
+  
   출처: https://amitness.com/2020/07/semi-supervised-learning/
   
   
   #### 📌 Method 3. VAT(17')
   ![image](https://user-images.githubusercontent.com/67623921/209646055-166bc795-a250-416f-9357-8afd04d3824b.png)
+  
   출처: https://sh-tsang.medium.com/review-virtual-adversarial-training-vat-4b3d8b7b2e92
     
   
   #### 📌 Method 4. Mean Teacher (17')
   ![image](https://user-images.githubusercontent.com/67623921/209646198-4661e185-e44c-4d23-af9f-8960e1eb6f13.png)
+  
   출처: https://velog.io/@injokim/%EC%99%95%EC%B4%88%EA%B8%89-Semi-supervised-learning-%EC%9E%85%EB%AC%B8
 
 
   #### 📌 Method 5. ICT (19')
   ![image](https://user-images.githubusercontent.com/67623921/209646639-8695ddbc-e433-4a9f-9884-c1e03f1c245a.png)
+  
   출처: Verma, V., Kawaguchi, K., Lamb, A., Kannala, J., Bengio, Y., & Lopez-Paz, D. (2019). Interpolation consistency training for semi-supervised learning. arXiv preprint arXiv:1903.03825.
   
   
@@ -66,6 +72,7 @@
 
   #### 📌 Method 6. MixMatch (19')
   ![image](https://user-images.githubusercontent.com/67623921/209646904-61c6481e-7192-4495-9139-a8ed37d9ae9b.png)
+  
   출처: https://rain-bow.tistory.com/entry/Semi-Supervised-Learning-SSL-%EC%86%8C%EA%B0%9C-%EB%B0%8F-%EB%8F%99%ED%96%A5
 
 
