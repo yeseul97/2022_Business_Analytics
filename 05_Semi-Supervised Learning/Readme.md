@@ -52,7 +52,7 @@
   
 ## 3️. Holistic methods
 
-  : 여러 semi-supervised learning 기법들을 통합하고 Mixup data augmentatino을 적용하여 성능을 더 끌어 올림.
+  : 여러 semi-supervised learning 기법들을 통합하고 Mixup data augmentation을 적용하여 성능을 더 끌어 올림.
 
   #### 📌 Method 6. `MixMatch` (19')
   ![image](https://user-images.githubusercontent.com/67623921/209646904-61c6481e-7192-4495-9139-a8ed37d9ae9b.png)
@@ -69,16 +69,17 @@
  - KL divergence
  - JS divergence
 
-#### Motivation
-![image](https://user-images.githubusercontent.com/67623921/209648099-730d6303-d2e7-44d1-b3db-f95a1f933a5e.png)
+- Semi-Supervised Learning의 목적함수는 supervised Loss $L_s$와 unsupervised Loss $L_u$의 합을 최소화하는 것으로 표현할 수 있음. 
 
-- 대규모의 teacher model의 지식을 가벼운 student model에 전이시키는 Knowledge distillation(KD) 방법에서는 KL-div 을 이용함. 
+- 이 점은 2-stage로 학습하는 self-supervised learning, transfer learning 등과의 차이점임. 
 
-- KL-divergence loss는 penultimate layer(softmax 이전)의 representation을 가늘게(?) 하는 반면, MSE loss는 이런 현상을 보이지 않음.
+- 따라서, Semi-Supervised Learning에서는 대용량 unlabeled data에 주는 unsupervised task를 어떻게 정하는지가 중요함. 
 
-  -softmax 이전의 representation을 다이렉트하게 배우는 MSE loss에 비해 적당히 softmax distribution 간의 거리만 줄여도 되는 KL-Divergence loss는 다채로운(즉, high variance를 갖는?) representation을 배울 필요성을 못느낀다고 보면 될듯.
-  
-- 특히, teacher와 student간의 capacity gap이 클 경우 KL-divergence loss를 이용해 학습한 다음, MSE-loss를 이용해 이어서 학습하는, Sequenctial distillation 학습을 하는 게 더 효과적이었음.
+- 하지만, 대부분의 모델들이 MSE로 Loss를 계산함. 
 
-- 단, label에 노이즈가 많을 수록 Direct하게 logit matching을 배우는 MSE Loss보다 소극적으로 배우는 (τ가 낮은) KL-divergence loss를 쓰는게 bad training의 악영향을 조금 줄이긴 함.
+Kim, T., Oh, J., Kim, N., Cho, S., & Yun, S. Y. (2021). Comparing kullback-leibler divergence and mean squared error loss in knowledge distillation. arXiv preprint arXiv:2105.08919.
+
+- 위 논문을 보면, 
+
+
 
