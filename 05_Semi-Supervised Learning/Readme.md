@@ -78,11 +78,9 @@
 
 ![image](https://user-images.githubusercontent.com/67623921/209652233-6095d773-4e88-4e45-a683-cfe06139c109.png)
 
-- 결과적으로, Pi Model은 KL_div_loss를 사용한 것이 가장 성능이 높았고, 
+- 결과적으로, `Pi Model`은 KL_div_loss를 사용한 것이 가장 성능이 높았고, `Mean Teacher`은 L1_loss를 사용한 것이 가장 성능이 높았고, `ICT`와 `MixMatch`는 JS_div_loss를 사용한 것이 가장 성능이 높았음. 
 
-- Mean Teacher은 L1_loss를 사용한 것이 가장 성능이 높았고, 
-
-- ICT와 MixMatch는 JS_div_loss를 사용한 것이 가장 성능이 높았음. 
+- 실험결과로 보아, 분포를 비교하는 KL_div_loss와 JS_div_loss를 사용한 것이 성능 향상에 영향을 끼치는 것으로 판단할 수 있음. 
 
 
 
