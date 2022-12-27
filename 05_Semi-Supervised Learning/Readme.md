@@ -1,4 +1,4 @@
-## ✍ 5번째 튜토리얼 "Semi-Supervised Learning"
+# ✍ 5번째 튜토리얼 "Semi-Supervised Learning"
  
 ### [목차]
 #### 1. Proxy-label method : `Pseudo Label`
