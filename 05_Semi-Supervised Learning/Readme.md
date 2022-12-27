@@ -4,13 +4,13 @@
 #### 1. Proxy-label method : `Pseudo Label`
 #### 2. Consistency regularization : `PI model`, `VAT`, `Mean Teacher`, `ICT`
 #### 3. Holistic methods : `MixMatch`
-#### 4. 실험 결과
+#### 4. 실험
 
 ---
 
 ## 1️. Proxy-label method 
 
-  - Labeled set으로 학습된 모델을 이용해 unlabeled data point들에 label을 달아주는 기법
+  : Labeled set으로 학습된 모델을 이용해 unlabeled data point들에 label을 달아주는 기법
 
 
   #### 📌 Method 1. `Pseudo Label` (13')
@@ -21,7 +21,7 @@
 
 ## 2️. Consistency regularization
 
-  - unlabeled data에 data augmentation을 통해 class가 바뀌지 않을 정도의 변화를 줬을 때, 원 데이터와의 예측결과가 같아지도록 unsupervised loss를 주어 학습하게 됨. 
+  : Unlabeled data에 data augmentation을 통해 class가 바뀌지 않을 정도의 변화를 줬을 때, 원 데이터와의 예측결과가 같아지도록 unsupervised loss를 주어 학습하게 됨. 
 
 
 
@@ -52,7 +52,7 @@
   
 ## 3️. Holistic methods
 
-  - 여러 semi-supervised learning 기법들을 통합하고 Mixup data augmentatino을 적용하여 성능을 더 끌어 올림.
+  : 여러 semi-supervised learning 기법들을 통합하고 Mixup data augmentatino을 적용하여 성능을 더 끌어 올림.
 
   #### 📌 Method 6. `MixMatch` (19')
   ![image](https://user-images.githubusercontent.com/67623921/209646904-61c6481e-7192-4495-9139-a8ed37d9ae9b.png)
@@ -61,7 +61,7 @@
 
 
   
-## 4. 실험 결과 
+## 4. 실험
 
 #### `"Loss를 변경해 가며 성능 변화를 확인하자"`
  - 기존: MSE
