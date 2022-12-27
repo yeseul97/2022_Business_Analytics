@@ -1,6 +1,6 @@
 ## ✍ 5번째 튜토리얼 "Semi-Supervised Learning"
  
-### <목차>
+### [목차]
 #### 1. Proxy-label method : `Pseudo Label`
 #### 2. Consistency regularization : `PI model`, `VAT`, `Mean Teacher`, `ICT`
 #### 3. Holistic methods : `MixMatch`
@@ -74,11 +74,22 @@
 
 - 하지만, 대부분의 모델들이 MSE로 Loss를 계산함. 
 
-- [1]을 참고하면
+- 따라서 본 실험에서는 데이터의 개수, 파라미터 등을 모두 고정한채로 Loss의 종류만 변경하여 ACC 성능을 비교함. 
+
+![image](https://user-images.githubusercontent.com/67623921/209652233-6095d773-4e88-4e45-a683-cfe06139c109.png)
+
+
+
+#### ※ 참고 
+
+- [1]을 참고하면, mse loss와 KL-divergence loss의 차이를 언급하고 있음.
+
+ - MSE loss는 representation을 다이렉트하게 배우는 특징이 있고, KL-divergence loss는 비교적 약하게 배우는 특징이 있음.
+
+ - 따라서, label에 노이즈가 많을수록 mse loss보다 소극적으로 배우는 KL-divergence loss를 쓰는게 더 낫다고 주장함. 
 
 [1] Kim, T., Oh, J., Kim, N., Cho, S., & Yun, S. Y. (2021). Comparing kullback-leibler divergence and mean squared error loss in knowledge distillation. arXiv preprint arXiv:2105.08919.
 
-- 위 논문을 보면, 
 
 
 
