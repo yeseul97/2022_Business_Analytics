@@ -8,7 +8,7 @@
 
 ---
 
-### 1️. Proxy-label method 
+## 1️. Proxy-label method 
 
   - Labeled set으로 학습된 모델을 이용해 unlabeled data point들에 label을 달아주는 기법
 
