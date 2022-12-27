@@ -13,11 +13,6 @@
   - Labeled set으로 학습된 모델을 이용해 unlabeled data point들에 label을 달아주는 기법
 
 
-  - 만약 Labeled set의 분포를 벗어나는 샘플들에는 제대로 된 label을 달아주기 어렵기 때문에 성능향상에 한계가 있다는 단점이 있음. 
-
-
-  - 그래도 Labeled set 분포 내의 샘플들에 대해 interpolation하는 효과가 있기때문에 아직도 많이 사용되는 기법임. 
-
   #### 📌 Method 1. `Pseudo Label` (13')
   ![image](https://user-images.githubusercontent.com/67623921/209647081-9874fab0-5f36-43a4-91d9-a224ca76e1ef.png)
   
@@ -26,16 +21,8 @@
 
 ### 2️. Consistency regularization
 
-  - 이 방법은 unlabeled data point에 작은 perturbation을 주어도 예측의 결과에는 일관성이 있을 거라고 가정함. 
-
-
   - unlabeled data에 data augmentation을 통해 class가 바뀌지 않을 정도의 변화를 줬을 때, 원 데이터와의 예측결과가 같아지도록 unsupervised loss를 주어 학습하게 됨. 
 
-
-  - 이를 통해 약간 헷갈리는 샘플들에 대해 class를 유연하게 예측할 수 있도록 해줌. 
-
-
-  - 성능이 좋은 semi-supervised learning 모델들은 대체로 consistency regularization을 사용하고 있음. 
 
 
   #### 📌 Method 2. `PI model` (16')
@@ -75,6 +62,14 @@
 
   
 ### 4. 실험 결과 
+
+#### `Loss를 변경해 가며 성능 변화를 확인하자`
+ - 기존: MSE
+ - L1 Loss
+ - KL divergence
+ - JS divergence
+
+#### Motivation
 ![image](https://user-images.githubusercontent.com/67623921/209648099-730d6303-d2e7-44d1-b3db-f95a1f933a5e.png)
 
 - 대규모의 teacher model의 지식을 가벼운 student model에 전이시키는 Knowledge distillation(KD) 방법에서는 KL-div 을 이용함. 
