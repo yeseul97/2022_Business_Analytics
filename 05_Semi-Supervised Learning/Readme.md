@@ -72,11 +72,17 @@
 
 - 따라서, Semi-Supervised Learning에서는 대용량 unlabeled data에 주는 unsupervised task를 어떻게 정하는지가 중요함. 
 
-- 하지만, 대부분의 모델들이 MSE로 Loss를 계산함. 
+- 하지만, 대부분의 모델들이 `MSE`로 Loss를 계산함. 
 
 - 따라서 본 실험에서는 데이터의 개수, 파라미터 등을 모두 고정한채로 Loss의 종류만 변경하여 ACC 성능을 비교함. 
 
 ![image](https://user-images.githubusercontent.com/67623921/209652233-6095d773-4e88-4e45-a683-cfe06139c109.png)
+
+- 결과적으로, Pi Model은 KL_div_loss를 사용한 것이 가장 성능이 높았고, 
+
+- Mean Teacher은 L1_loss를 사용한 것이 가장 성능이 높았고, 
+
+- ICT와 MixMatch는 JS_div_loss를 사용한 것이 가장 성능이 높았음. 
 
 
 
