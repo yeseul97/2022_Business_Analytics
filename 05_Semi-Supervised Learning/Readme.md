@@ -19,7 +19,7 @@
   출처: https://sanghyu.tistory.com/177
 
 
-### 2️. Consistency regularization
+## 2️. Consistency regularization
 
   - unlabeled data에 data augmentation을 통해 class가 바뀌지 않을 정도의 변화를 줬을 때, 원 데이터와의 예측결과가 같아지도록 unsupervised loss를 주어 학습하게 됨. 
 
@@ -50,7 +50,7 @@
   
   
   
-### 3️. Holistic methods
+## 3️. Holistic methods
 
   - 여러 semi-supervised learning 기법들을 통합하고 Mixup data augmentatino을 적용하여 성능을 더 끌어 올림.
 
@@ -61,7 +61,7 @@
 
 
   
-### 4. 실험 결과 
+## 4. 실험 결과 
 
 #### `Loss를 변경해 가며 성능 변화를 확인하자`
  - 기존: MSE
