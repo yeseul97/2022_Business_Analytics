@@ -4,9 +4,10 @@
 1. Proxy-label method : `Pseudo Label`
 2. Consistency regularization : `PI model`, `VAT`, `Mean Teacher`, `ICT`
 3. Holistic methods : `MixMatch`
+4. 실험 결과
 
 
-
+---
 
 
 ### 1️. Proxy-label method 
@@ -19,7 +20,7 @@
 
   - 그래도 Labeled set 분포 내의 샘플들에 대해 interpolation하는 효과가 있기때문에 아직도 많이 사용되는 기법임. 
 
-  #### 📌 Method 1. Pseudo Label (13')
+  #### 📌 Method 1. `Pseudo Label` (13')
   ![image](https://user-images.githubusercontent.com/67623921/209647081-9874fab0-5f36-43a4-91d9-a224ca76e1ef.png)
   
   출처: https://sanghyu.tistory.com/177
