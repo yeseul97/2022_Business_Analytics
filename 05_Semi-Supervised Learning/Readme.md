@@ -1,11 +1,12 @@
 ## ✍ 5번째 튜토리얼 "Semi-Supervised Learning"
---- 
+ 
 ### <목차>
 #### 1. Proxy-label method : `Pseudo Label`
 #### 2. Consistency regularization : `PI model`, `VAT`, `Mean Teacher`, `ICT`
 #### 3. Holistic methods : `MixMatch`
 #### 4. 실험 결과
 
+---
 
 ### 1️. Proxy-label method 
 
