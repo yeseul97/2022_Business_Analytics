@@ -64,10 +64,8 @@
 ## 4. 실험
 
 #### `"Loss를 변경해 가며 성능 변화를 확인하자"`
- - 기존: MSE
- - L1 Loss
- - KL divergence
- - JS divergence
+  - 기존 Loss: MSE
+  - 실험할 Loss: L1 Loss, KL divergence, JS divergence
 
 - Semi-Supervised Learning의 목적함수는 supervised Loss $L_s$와 unsupervised Loss $L_u$의 합을 최소화하는 것으로 표현할 수 있음. 
 
